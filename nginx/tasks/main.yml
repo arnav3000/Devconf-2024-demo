@@ -16,8 +16,7 @@
     state: started
 
 - name: Adding a bad role
-  test:
-    This looks wrong and I want code bot to fix it.
+  test: This looks wrong and I want code bot to fix it.
 
 - name: Now lets select a deprecated module and see if this works !
   cisco.nxos.nxos_snmp_community:
