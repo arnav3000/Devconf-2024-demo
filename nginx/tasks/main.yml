@@ -22,5 +22,5 @@
 - name: Now lets select a deprecated module and see if this works !
   cisco.nxos.nxos_snmp_community:
     community: TESTING
-    group: notify:
+    group: test
     state: present
