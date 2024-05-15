@@ -1,0 +1,9 @@
+---
+- name: Install and configure Nginx
+  hosts: web_servers
+  become: yes
+
+  tasks:
+    - name: Include Nginx role
+      include_role:
+        name: nginx
