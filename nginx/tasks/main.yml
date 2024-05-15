@@ -14,3 +14,7 @@
   service:
     name: nginx
     state: started
+
+- name: Adding a bad role
+  test:
+    This looks wrong and I want code bot to fix it.
